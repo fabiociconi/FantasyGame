@@ -1,0 +1,24 @@
+<% @aleagues.each do |league| %>
+<tr>
+  <td><%= league.playerhost %></td>
+  <td><%= league.leaguename %></td>
+  <td><%= league.player1 %></td>
+  <td><%= league.player2 %></td>
+  <td><%= league.player3 %></td>
+  <td><%= league.player4 %></td>
+  <td><%= league.player5 %></td>
+  <td><%= league.player6 %></td>
+  <td><%= league.player7 %></td>
+  <td><%= league.player8 %></td>
+  <td><%= league.player9 %></td>
+  <td><%= league.player10 %></td>
+  <td><%= league.player11 %></td>
+  <td><%= league.player12 %></td>
+  <td><%= league.player13 %></td>
+  <td><%= league.player14 %></td>
+  <td><%= league.player15 %></td>
+
+  <td><%= button_to "Remove", league, method: :delete, data:{confirm:"Are you sure you want to delete #{league.leaguename}?"} %></td>
+
+</tr>
+<% end %>

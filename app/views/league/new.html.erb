@@ -1,0 +1,101 @@
+<div class="container">
+<%= @league.errors.full_messages.each do |message| %>
+  <div class="alert alert-warning" role="alert"><%= message %></div>
+<% end %>
+<%= form_for @league do |f| %>
+
+<div class="form-inline">
+    <div class="form-group">
+        <%= f.label :leaguename %>
+        <%= f.text_field :leaguename, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :playerhost %>
+        <%= f.text_field :playerhost, class: "form-control" %>
+    </div>
+</div>
+
+<div class="form-inline">
+    <div class="form-group">
+        <%= f.label :player1 %>
+        <%= f.text_field :player1, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player2 %>
+        <%= f.text_field :player2, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player3 %>
+        <%= f.text_field :player3, class: "form-control" %>
+    </div>
+</div>
+
+<div class="form-inline">
+    <div class="form-group">
+        <%= f.label :player4 %>
+        <%= f.text_field :player4, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player5 %>
+        <%= f.text_field :player5, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player6 %>
+        <%= f.text_field :player6, class: "form-control" %>
+    </div>
+</div>
+
+<div class="form-inline">
+<div class="form-group">
+    <%= f.label :player7 %>
+    <%= f.text_field :player7, class: "form-control" %>
+</div>
+    <div class="form-group">
+        <%= f.label :player8 %>
+        <%= f.text_field :player8, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player9 %>
+        <%= f.text_field :player9, class: "form-control" %>
+    </div>
+</div>
+
+<div class="form-inline">
+    <div class="form-group">
+        <%= f.label :player10 %>
+        <%= f.text_field :player10, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player11 %>
+        <%= f.text_field :player11, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player12 %>
+        <%= f.text_field :player12, class: "form-control" %>
+    </div>
+</div>
+
+<div class="form-inline">
+    <div class="form-group">
+        <%= f.label :player13 %>
+        <%= f.text_field :player13, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player14 %>
+        <%= f.text_field :player14, class: "form-control" %>
+    </div>
+    <div class="form-group">
+        <%= f.label :player15 %>
+        <%= f.text_field :player15, class: "form-control" %>
+    </div>
+</div>
+
+<%= f.submit "Create League" %>
+
+<% end %>
+
+
+
+
+</div>
+<%= link_to "List Leagues", listleagues_path %>

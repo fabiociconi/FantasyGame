@@ -1,0 +1,2366 @@
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:00:24 -0400
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:00:28 -0400
+  
+Mysql2::Error::ConnectionError (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `connect'
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+Mysql2::Error::ConnectionError (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `connect'
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:12:43 -0400
+  
+Mysql2::Error::ConnectionError (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `connect'
+mysql2-0.5.2-x64 (mingw32) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `new'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:22:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:14:17 -0400
+  
+ActiveRecord::NoDatabaseError (Unknown database 'fantasygame_development'):
+  
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:15:04 -0400
+  
+ActiveRecord::NoDatabaseError (Unknown database 'fantasygame_development'):
+  
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (755.5ms)[0m  [1m[35mCREATE DATABASE `FantasyGame_development` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (987.4ms)[0m  [1m[35mCREATE DATABASE `FantasyGame_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2018-08-14 00:37:21 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (10.0ms)
+Completed 200 OK in 305ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 02:20:58 -0400
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/cleibi/Documents/Ruby Projects/FantasyGame/app/views/league/new.html.erb:13: syntax error, unexpected ':', expecting ')'
+'email', 'email@example.com' :player1, class: "form-control"
+                              ^):
+  
+app/views/league/new.html.erb:13: syntax error, unexpected ':', expecting ')'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 02:22:12 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (71.0ms)
+Completed 500 Internal Server Error in 233ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::League):
+    1: <%= form_for League.new do |l| %>
+    2: 
+    3: <div class="form-group">
+    4:     <%= l.label :leaguename %>
+  
+app/views/league/new.html.erb:1:in `_app_views_league_new_html_erb__923002355_93952320'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 02:59:47 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1473.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (829.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT GET_LOCK('5126723420659515675', 0)[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+Migrating to CreateLeagues (20180814065748)
+  [1m[35m (865.5ms)[0m  [1m[35mCREATE TABLE `leagues` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `leaguename` varchar(255), `playerhost` varchar(255), `player1` varchar(255), `player2` varchar(255), `player3` varchar(255), `player4` varchar(255), `player5` varchar(255), `player6` varchar(255), `player7` varchar(255), `player8` varchar(255), `player9` varchar(255), `player10` varchar(255), `player11` varchar(255), `player12` varchar(255), `player13` varchar(255), `player14` varchar(255), `player15` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20180814065748_create_leagues.rb:3
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (2.0ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180814065748')[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (55.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (3.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (111.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-08-14 07:00:49', '2018-08-14 07:00:49')[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (264.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT RELEASE_LOCK('5126723420659515675')[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 03:07:24 -0400
+  [1m[35m (2.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (404.1ms)
+Completed 500 Internal Server Error in 564ms (ActiveRecord: 23.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `leagues_path' for #<#<Class:0x0000000007d49a20>:0x0000000007d43dc8>
+Did you mean?  legacy_debug_path):
+    1: <%= form_for League.new do |f| %>
+    2: 
+    3: <div class="form-group">
+    4:     <%= f.label :leaguename %>
+  
+app/views/league/new.html.erb:1:in `_app_views_league_new_html_erb__923002355_65687900'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 03:37:09 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (1303.2ms)
+Completed 200 OK in 7666ms (Views: 7601.5ms | ActiveRecord: 24.1ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 03:54:04 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 382ms (Views: 344.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 03:58:50 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (66.1ms)
+Completed 200 OK in 438ms (Views: 371.6ms | ActiveRecord: 22.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-14 03:59:01 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7K0s2wAm7Ha4ic2Ln3zn0d5wO2hyFFH6b8o0sUALE7+mOY5yQLcI11uxbdHWPqc/zZOKJUrOhFey7FlyrbxIOQ==", "league"=>{"playerhost"=>"", "leaguename"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"dfsf", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:8
+  [1m[36mLeague Create (6.1ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('', '', '', '', '', '', '', '', '', '', 'dfsf', '', '', '', '', '', '', '2018-08-14 07:59:01', '2018-08-14 07:59:01')[0m
+  ↳ app/controllers/league_controller.rb:8
+  [1m[35m (173.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:8
+  Rendering league/create.html.erb within layouts/application
+  Rendered league/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 529ms (Views: 285.4ms | ActiveRecord: 179.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:06:51 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 381ms (Views: 325.5ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:08:50 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 335ms (Views: 302.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:13:39 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 349ms (Views: 312.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:14:08 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 329ms (Views: 296.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-14 04:22:30 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  Rendered league/list.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 380ms (Views: 344.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-14 04:31:49 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (540.1ms)
+Completed 200 OK in 914ms (Views: 856.5ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:32:15 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 345ms (Views: 305.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-14 04:34:25 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 315ms (Views: 281.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=&league%5Bplayer14%5D=&league%5Bplayer15%5D=&commit=Create+League" for 127.0.0.1 at 2018-08-14 04:34:49 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 338ms (Views: 302.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-14 04:35:04 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 314ms (Views: 279.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 01:03:06 -0400
+Started GET "/" for 127.0.0.1 at 2018-08-21 01:03:10 -0400
+  [1m[35m (862.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (882.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (582.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (585.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/" for 127.0.0.1 at 2018-08-21 01:18:32 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (38.0ms)
+Completed 200 OK in 734ms (Views: 410.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:19:38 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (231.1ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (596.7ms)
+Completed 200 OK in 12701ms (Views: 12222.8ms | ActiveRecord: 414.1ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 01:20:57 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (2268.3ms)
+Completed 200 OK in 3393ms (Views: 3265.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=&league%5Bplayer14%5D=&league%5Bplayer15%5D=&commit=Create+League" for 127.0.0.1 at 2018-08-21 01:21:21 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 686ms (Views: 616.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:21:48 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 509ms (Views: 462.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:21:54 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 1209ms (Views: 1092.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:31:05 -0400
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.1ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (102.0ms)
+Completed 200 OK in 763ms (Views: 681.9ms | ActiveRecord: 37.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:32:05 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:15
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 470ms (Views: 425.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:34:42 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 432ms (Views: 394.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:47:27 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 1405ms (Views: 1298.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:47:53 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 528ms (Views: 471.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:48:33 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 548ms (Views: 498.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:52:57 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 449ms (Views: 405.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 01:52:59 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 629ms (Views: 580.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=&league%5Bplayer14%5D=&league%5Bplayer15%5D=&commit=Create+League" for 127.0.0.1 at 2018-08-21 01:53:13 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 462ms (Views: 410.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=&league%5Bplayer14%5D=&league%5Bplayer15%5D=&commit=Create+League" for 127.0.0.1 at 2018-08-21 01:54:37 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 732ms (Views: 641.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:54:45 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 993ms (Views: 954.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 01:59:27 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (262.1ms)
+Completed 200 OK in 1506ms (Views: 1376.7ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=&league%5Bplayer14%5D=&league%5Bplayer15%5D=&commit=Create+League" for 127.0.0.1 at 2018-08-21 01:59:39 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 6681ms (Views: 6637.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 01:59:48 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 487ms (Views: 435.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 02:07:25 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 408ms (Views: 369.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:07:27 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 480ms (Views: 431.6ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (7.9ms)[0m  [1m[34mSELECT GET_LOCK('5126723420659515675', 0)[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (82.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5126723420659515675')[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/bin/rake:23
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 02:39:15 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (265.1ms)
+Completed 200 OK in 3093ms (Views: 2979.9ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:56:01 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[36mCACHE League Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` LIMIT 11[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  Rendered league/list.html.erb within layouts/application (781.0ms)
+Completed 500 Internal Server Error in 970ms (ActiveRecord: 30.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `aleagues' for #<#<Class:0x000000000c5ff788>:0x000000000c5fdc80>
+Did you mean?  @aleagues):
+    22:   </thead>
+    23:   <tbody>
+    24:     
+    25:     <%= aleagues.each do |league| %>
+    26:     <tr>
+    27:       <td><%= league.playerhost %></td>
+    28:       <td><%= league.leaguename %></td>
+  
+app/views/league/list.html.erb:25:in `_app_views_league_list_html_erb__114781494_88260720'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:56:24 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 362ms (Views: 326.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:56:27 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 461ms (Views: 415.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 02:56:32 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 317ms (Views: 285.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:56:34 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues`[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 373ms (Views: 337.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 02:59:47 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (52.1ms)
+Completed 200 OK in 379ms (Views: 318.0ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:02:37 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 340ms (Views: 307.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:03:18 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 330ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague?league%5Bplayer13%5D=bbbbb&league%5Bplayer14%5D=bbbbbb&league%5Bplayer15%5D=bbbbbb&commit=Create+League" for 127.0.0.1 at 2018-08-21 03:03:38 -0400
+Processing by LeagueController#new as HTML
+  Parameters: {"league"=>{"player13"=>"bbbbb", "player14"=>"bbbbbb", "player15"=>"bbbbbb"}, "commit"=>"Create League"}
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 310ms (Views: 276.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 03:03:41 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 361ms (Views: 310.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:30:48 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 278ms (Views: 250.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:32:08 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 358ms (Views: 315.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 03:32:35 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ENuRqp7UAeG5XfnF7C5Hod/+RLnz5Wnl0yGVQoDiWm6YF0/6oRZUDJ1LGAtLXl8IOZ2e4tg4nYUOL37EwWbDRw==", "league"=>{"leaguename"=>"cCC", "playerhost"=>"cccc", "player1"=>"cccc", "player2"=>"ccc", "player3"=>"cccc", "player4"=>"cccc", "player5"=>"cccc", "player6"=>"cccc", "player7"=>"cccc", "player8"=>"cccc", "player9"=>"cccc", "player10"=>"cccc", "player11"=>"cccc", "player12"=>"cccc", "player13"=>"cccc", "player14"=>"cccc", "player15"=>"cccc"}, "commit"=>"Create League"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (82.4ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('cCC', 'cccc', 'cccc', 'ccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', 'cccc', '2018-08-21 07:32:35', '2018-08-21 07:32:35')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (136.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+  Rendering league/create.html.erb within layouts/application
+  Rendered league/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 616ms (Views: 324.6ms | ActiveRecord: 219.8ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 03:32:46 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 302ms (Views: 268.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 03:36:10 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 346ms (Views: 308.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:50:39 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 334ms (Views: 295.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:56:45 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 327ms (Views: 293.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 03:57:00 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2QKOOuXbHxTijxNKuZXgGffps47tvQvlyqwtfsiP23FRzlBq2hlK+caZ8oQe5fiwEYpp1cZg/4UXosb4iQtCWA==", "league"=>{"leaguename"=>"22222", "playerhost"=>"222222", "player1"=>"222222", "player2"=>"2222", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"22222", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"22222", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (12.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('22222', '222222', '222222', '2222', '', '', '', '22222', '', '', '', '', '22222', '', '', '', '', '2018-08-21 07:57:00', '2018-08-21 07:57:00')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (164.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+  Rendering league/create.html.erb within layouts/application
+  Rendered league/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 514ms (Views: 286.0ms | ActiveRecord: 177.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 03:57:05 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 312ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 03:57:25 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 307ms (Views: 280.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:04:50 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 299ms (Views: 269.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/league/1/remove" for 127.0.0.1 at 2018-08-21 04:05:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/league/1/remove"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:08:56 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 498ms (Views: 420.5ms | ActiveRecord: 28.0ms)
+
+
+Started GET "/league/1/remove" for 127.0.0.1 at 2018-08-21 04:08:59 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/league/1/remove"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:09:18 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 346ms (Views: 309.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:12:19 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (66.1ms)
+Completed 200 OK in 402ms (Views: 343.0ms | ActiveRecord: 24.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:12:26 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3x1G3JpbfComqxpbMxMTExrk9nUqmzFssvuUwOPfajZfI1qL48c9gxI7mTWyusfYRSjqMF2rRL41NAURKvXiXg==", "league"=>{"leaguename"=>" cbfdgd\\", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"v ", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+Redirected to http://localhost:3000/listleagues
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:13
+  [1m[36mLeague Create (56.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES (' cbfdgd\\', '', '', '', '', 'v ', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:12:27', '2018-08-21 08:12:27')[0m
+  ↳ app/controllers/league_controller.rb:13
+  [1m[35m (213.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:13
+Completed 302 Found in 284ms (ActiveRecord: 269.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:12:27 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 332ms (Views: 298.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:15:26 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 372ms (Views: 307.4ms | ActiveRecord: 24.9ms)
+
+
+Started GET "/league/4/remove" for 127.0.0.1 at 2018-08-21 04:15:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/league/4/remove"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:16:44 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 342ms (Views: 306.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:16:47 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 335ms (Views: 300.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/leagues/4/remove" for 127.0.0.1 at 2018-08-21 04:16:49 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (105.1ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 4[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (408.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 1001ms (ActiveRecord: 513.2ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:16:50 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 379ms (Views: 334.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/leagues/1/remove" for 127.0.0.1 at 2018-08-21 04:16:58 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (57.3ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (103.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 163ms (ActiveRecord: 161.3ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:16:58 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 295ms (Views: 268.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:22:02 -0400
+  
+SyntaxError (C:/Users/cleibi/Documents/Ruby Projects/FantasyGame/config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+es/:id" => "league#destroy" as: :league
+                              ^):
+  
+config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:27:39 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 388ms (Views: 327.2ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:27:45 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 319ms (Views: 279.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:27:49 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DbS3YAuJK9MnUngRO2K8D0ybkTcF/di43PdI7ADMjPKNiqs3chVqehPC+3+6y2jEE1eNcnLNrWpbONk9yeYEmg==", "league"=>{"leaguename"=>"sssssssssss", "playerhost"=>"", "player1"=>"sdvsv", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (36.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('sssssssssss', '', 'sdvsv', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:27:50', '2018-08-21 08:27:50')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (199.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 252ms (ActiveRecord: 236.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:27:50 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 317ms (Views: 283.4ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/5" for 127.0.0.1 at 2018-08-21 04:27:52 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"k9QFMIjq6bwDtDeGk20tk3qUT6oaXAinIeg+Z3T6GtUbGNtgtyi8USei1kg0HTU6nPeV8TGB/Mf85tXhNX6D/A==", "id"=>"5"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (17.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 5[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (2679.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 2777ms (ActiveRecord: 2698.9ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:27:55 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.8ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 329ms (Views: 295.9ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/leagues/3" for 127.0.0.1 at 2018-08-21 04:27:59 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"j8rPFCr5EZaWVS20JGs4GNPTlHBif09A4Z7wb7QsBU0HBhFEFTtEe7JDzHqDGyCxNbBOK0miuyA8kBvp9aicZA==", "id"=>"3"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (26.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 3[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (525.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 570ms (ActiveRecord: 553.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:27:59 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 377ms (Views: 343.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:30:57 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 331ms (Views: 299.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:31:02 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuOf8E1IjcNEy8juh61YKH8i1ZAKbBYD66pfgXQq/vNC3YOnNNTManBbS4AGBIzjIO7J1X1cY9FsZc5QvQB2mw==", "league"=>{"leaguename"=>"eeeeeeeeee", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (218.9ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('eeeeeeeeee', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:31:02', '2018-08-21 08:31:02')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (757.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 1002ms (ActiveRecord: 977.8ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:31:03 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 670ms (Views: 634.6ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/6" for 127.0.0.1 at 2018-08-21 04:31:10 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HSsNrDis04G+lYc4uOBZ4DlwhF57aOrMpRYUTLXzVvKV59P8B26GbJqDZvYfkEFJ3xNeBVC1Hqx4GP/K9HfP2w==", "id"=>"6"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 6 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (24.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 6[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (109.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 149ms (ActiveRecord: 134.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:31:11 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 317ms (Views: 283.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:31:13 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 375ms (Views: 332.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:31:17 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jvdHSa5+kKJ5B0pVj7OxQuArgUGzDuco8jdhPImef6kOyVse1+LRC02XyTsOGmWJv+edBMQ+kvp1+PDtQLT3wQ==", "league"=>{"leaguename"=>"ffffffffffff", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (264.8ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('ffffffffffff', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:31:17', '2018-08-21 08:31:17')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (142.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 430ms (ActiveRecord: 408.7ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:31:17 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 336ms (Views: 297.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:38:44 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 337ms (Views: 300.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:38:48 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3hX0Ah4M2JdXAg3rxtzucLqkvejzrkCiCG4gMNuggfheK+hVZ5CZPmOSjoVHdTq75WihrYSeNXCPobHhEooJkA==", "league"=>{"leaguename"=>"ggggggggggggg", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (168.9ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('ggggggggggggg', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:38:48', '2018-08-21 08:38:48')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (278.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 464ms (ActiveRecord: 448.5ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:38:49 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 329ms (Views: 293.3ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/8" for 127.0.0.1 at 2018-08-21 04:38:53 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EMibJONkRQj3+FHJoiaAzNtR5Q5Kyp+/XRFd5q7CbCiYBEV03KYQ5dPusAcFVphlPTI/VWEXa9+AH7Zg70b1AQ==", "id"=>"8"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 8 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (45.1ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 8[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (111.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 176ms (ActiveRecord: 158.2ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:38:53 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.1ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 328ms (Views: 286.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:44:36 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (616.1ms)
+Completed 500 Internal Server Error in 827ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listleagues_path' for #<#<Class:0x000000000c747dc0>:0x000000000c744e90>):
+    1: <%= link_to "Leagues", listleagues_path %>
+  
+app/views/page/index.html.erb:1:in `_app_views_page_index_html_erb__521460200_104490180'
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:45:38 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (629.0ms)
+Completed 500 Internal Server Error in 790ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listleagues_url' for #<#<Class:0x000000000c747dc0>:0x000000000baad470>):
+    1: <%= link_to "Leagues", listleagues_url %>
+  
+app/views/page/index.html.erb:1:in `_app_views_page_index_html_erb__521460200_97874360'
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:46:45 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2709ms (Views: 2675.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:48:00 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (523.1ms)
+Completed 500 Internal Server Error in 688ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listleagues_path' for #<#<Class:0x000000000c747dc0>:0x000000000cc544f8>):
+    1: <h1>Home Page</h1>
+    2: 
+    3: <%= link_to "Leagues",  listleagues_path %>
+  
+app/views/page/index.html.erb:3:in `_app_views_page_index_html_erb__521460200_107128640'
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:49:16 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (544.1ms)
+Completed 500 Internal Server Error in 707ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listleagues_path' for #<#<Class:0x000000000bf6c920>:0x000000000bf9ebf0>):
+    1: <h1>Home Page</h1>
+    2: 
+    3: <%= link_to "Leagues",  listleagues_path %>
+  
+app/views/page/index.html.erb:3:in `_app_views_page_index_html_erb__521460200_100362460'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:49:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/listleagues"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/list" for 127.0.0.1 at 2018-08-21 04:50:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/list"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:50:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/newleague"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:52:05 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 397ms (Views: 345.3ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:52:08 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  Rendered league/list.html.erb within layouts/application (52.0ms)
+Completed 500 Internal Server Error in 274ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22:   </thead>
+    23:   <tbody>
+    24: 
+    25:     <% @aleagues.each do |league| %>
+    26:     <tr>
+    27:       <td><%= league.playerhost %></td>
+    28:       <td><%= league.leaguename %></td>
+  
+app/views/league/list.html.erb:25:in `_app_views_league_list_html_erb__114781494_106830620'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:53:04 -0400
+  
+SyntaxError (C:/Users/cleibi/Documents/Ruby Projects/FantasyGame/config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+es/:id" => "league#destroy" as: :leagues
+                              ^):
+  
+config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:53:28 -0400
+  
+ArgumentError (Invalid route name, already in use: 'leagues' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:53:53 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  Rendered league/list.html.erb within layouts/application (34.0ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22:   </thead>
+    23:   <tbody>
+    24: 
+    25:     <% @aleagues.each do |league| %>
+    26:     <tr>
+    27:       <td><%= league.playerhost %></td>
+    28:       <td><%= league.leaguename %></td>
+  
+app/views/league/list.html.erb:25:in `_app_views_league_list_html_erb__114781494_93939180'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:54:08 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  Rendered league/list.html.erb within layouts/application (36.1ms)
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    22:   </thead>
+    23:   <tbody>
+    24: 
+    25:     <% @aleagues.each do |league| %>
+    26:     <tr>
+    27:       <td><%= league.playerhost %></td>
+    28:       <td><%= league.leaguename %></td>
+  
+app/views/league/list.html.erb:25:in `_app_views_league_list_html_erb__114781494_103528340'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:54:38 -0400
+  
+ArgumentError (Invalid route name, already in use: 'leagues' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:7:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:55:21 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (53.1ms)
+Completed 200 OK in 391ms (Views: 331.4ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:55:24 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 375ms (Views: 335.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:55:26 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 368ms (Views: 320.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/leagues/7" for 127.0.0.1 at 2018-08-21 04:55:31 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yGBqUvPjIfw8nJi8u33qFvPPB+LT+mYgA+ovQKCVAWx2F1Aul6A3Dnt6neFxAM+1ve1I9dy4HSWwQSl9NbEDpQ==", "id"=>"7"}
+  [1m[36mLeague Load (1.1ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 7 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (122.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 7[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (746.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 893ms (ActiveRecord: 870.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:55:32 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 350ms (Views: 315.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:55:46 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 342ms (Views: 317.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:55:52 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gi/PrPRVUwyUapBHXxnlZJBKWf4MFANGZ+AVOXoh0KcCEdP7jckSpaD6EynesDGvz4ZFu3skdpTgL4ToswtYzw==", "league"=>{"leaguename"=>"yyyyyyyyy", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (56.9ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('yyyyyyyyy', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:55:52', '2018-08-21 08:55:52')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (194.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 270ms (ActiveRecord: 251.2ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:55:52 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 337ms (Views: 300.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-21 04:55:55 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 326ms (Views: 299.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-21 04:55:59 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VCr8MqpOQ544rBPgdUdnEr48yHGAu40+ppknUNuVCdzUFOBl09ICNww8kI707rPZ4fDUNPeL+OwhVraBEr+BtA==", "league"=>{"leaguename"=>"77777777", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[36mLeague Create (48.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('77777777', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-21 08:55:59', '2018-08-21 08:55:59')[0m
+  ↳ app/controllers/league_controller.rb:12
+  [1m[35m (108.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:12
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 174ms (ActiveRecord: 156.7ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:55:59 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 342ms (Views: 308.2ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/10" for 127.0.0.1 at 2018-08-21 04:56:02 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Irm7p1vVuR9Uqs2tMTcdDrtyOHhaYD/EJkwUw0lFse+qdWX3ZBfs8nC8LGOWRwWnXRHiI3G9y6T7Qv9FCMEoxg==", "id"=>"10"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[36mLeague Destroy (21.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 10[0m
+  ↳ app/controllers/league_controller.rb:18
+  [1m[35m (459.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:18
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 498ms (ActiveRecord: 482.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:56:03 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 397ms (Views: 350.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 04:57:12 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 334ms (Views: 302.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:57:15 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 469ms (Views: 394.5ms | ActiveRecord: 31.3ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 04:59:29 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 349ms (Views: 312.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 05:01:28 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 341ms (Views: 305.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-21 05:01:31 -0400
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 344ms (Views: 298.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-21 05:01:34 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 344ms (Views: 297.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-25 03:41:36 -0400
+Started GET "/" for 127.0.0.1 at 2018-08-25 03:41:39 -0400
+  [1m[35m (2064.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2066.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (63.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (64.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PageController#index as HTML
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (37.0ms)
+  Rendered page/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 18463ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__197323102_69368180'
+Completed 200 OK in 18745ms (Views: 18694.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-25 03:45:10 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 389ms (Views: 347.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 03:45:15 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (64.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (292.1ms)
+Completed 200 OK in 646ms (Views: 350.7ms | ActiveRecord: 237.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:16:07 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (750.3ms)
+Completed 200 OK in 1774ms (Views: 1415.5ms | ActiveRecord: 25.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 04:16:30 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n9UFv842CcfqiJhZmrNCMZpTFoLSn4AerHMGWOQyLV++SxGwm1cNNr17rviq9gxI4xGjCR/MyeoDZdkBbFrbxw==", "league"=>{"leaguename"=>"gssfsfsfs", "playerhost"=>"wddqd", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:13
+  [1m[36mLeague Create (61.4ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('gssfsfsfs', 'wddqd', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-25 08:16:30', '2018-08-25 08:16:30')[0m
+  ↳ app/controllers/league_controller.rb:13
+  [1m[35m (185.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:13
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 266ms (ActiveRecord: 247.7ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 04:16:31 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 374ms (Views: 323.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:33:29 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (518.1ms)
+Completed 500 Internal Server Error in 736ms (ActiveRecord: 24.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `league' for #<#<Class:0x000000000efc9988>:0x000000000efc3e20>
+Did you mean?  @league):
+    1: <div class="container">
+    2: <%= league.erros.full_messages.each do |message| %>
+    3:   <div class="alert alert-warning" role="alert"><%= message %></div>
+    4: <% end %>
+    5: <%= form_for @league do |f| %>
+  
+app/views/league/new.html.erb:2:in `_app_views_league_new_html_erb__879096393_125718800'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:34:22 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (68.0ms)
+Completed 500 Internal Server Error in 323ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `erros' for #<League:0x000000000b03a150>
+Did you mean?  errors):
+    1: <div class="container">
+    2: <%= @league.erros.full_messages.each do |message| %>
+    3:   <div class="alert alert-warning" role="alert"><%= message %></div>
+    4: <% end %>
+    5: <%= form_for @league do |f| %>
+  
+app/views/league/new.html.erb:2:in `_app_views_league_new_html_erb__879096393_89183440'
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:34:47 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 446ms (Views: 399.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 04:35:04 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FWvDYT3HSv/W2uldGeixtHCihFfubCIUFLXgWSMCQ+lOASgh/j2NHNsLyT2oTbS4EGDkTjAe3sO9a/KGnBZQAw==", "league"=>{"leaguename"=>"new", "playerhost"=>"mt", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"ffffffffffffffffffffffff", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (88.6ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('new', 'mt', '', '', '', 'ffffffffffffffffffffffff', '', '', '', '', '', '', '', '', '', '', '', '2018-08-25 08:35:04', '2018-08-25 08:35:04')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (773.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 887ms (ActiveRecord: 862.8ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 04:35:05 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:25
+  Rendered league/list.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 421ms (Views: 373.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:54:40 -0400
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 801ms (Views: 620.9ms | ActiveRecord: 44.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 04:54:48 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"++vfd+qDQmpASZqb5wiVbWVwSYxj6NGrAMNnKhSHX7zadct4v+JGmxe6rDrXTdsUHDL8B667mF+v1bhznO+pJA==", "league"=>{"leaguename"=>"dsadad", "playerhost"=>"dsad", "player1"=>"sda", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (332.8ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('dsadad', 'dsad', 'sda', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-25 08:54:48', '2018-08-25 08:54:48')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (176.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 529ms (ActiveRecord: 508.9ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 04:54:48 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.1ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:27
+  Rendered league/list.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 356ms (Views: 321.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 04:54:54 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 343ms (Views: 308.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 04:55:45 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VhZd7CnYB1pIvqClHz+V7hQ3oKYq3f8t1FDlV+3PLR53iEnjfLkDqx9NlgQvetuXbXUVLeeOttl7RjoOZafbhg==", "league"=>{"leaguename"=>"sssss", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (48.2ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('sssss', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2018-08-25 08:55:45', '2018-08-25 08:55:45')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (133.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 200ms (ActiveRecord: 181.6ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 04:55:45 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:27
+  Rendered league/list.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 397ms (Views: 361.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 04:56:25 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:27
+  Rendered league/list.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 339ms (Views: 302.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 05:09:36 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:29
+  Rendered league/list.html.erb within layouts/application (89.0ms)
+Completed 200 OK in 3513ms (Views: 3420.6ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 05:13:37 -0400
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 483ms (Views: 387.1ms | ActiveRecord: 32.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 05:13:54 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LjrTRzN11DTZ0QH4l+NgZV5nRZjpDh3pePhyyACXc8UPpMdIZhTQxY4iN1mnpi4cJyXwEyRdVB3X7q2RiP+FXQ==", "league"=>{"leaguename"=>"dddd", "playerhost"=>"", "player1"=>"", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"ddd", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/league_controller.rb:14
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 313ms (Views: 300.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 05:14:00 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QMB7v8EDRczYTSRSZAgCKtXpL2INkA/Tr+PB5sl5wJcbqpD/AvmCL9WcBDLVrQcmtStPe9Pi8wQGPdM5dm3TfQ==", "league"=>{"leaguename"=>"dddd", "playerhost"=>"", "player1"=>"222222", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"ddd", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/league_controller.rb:14
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 2789ms (Views: 346.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 05:14:16 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I5Wui+TzSPmuh+jnZzG8JP9hfTrftW2cL5wJTv64jRZ4/0XLJwmPGqNWyIfWlLkon6MdIwHHkUuGQhuRQaye/A==", "league"=>{"leaguename"=>"dddd", "playerhost"=>"", "player1"=>"joe@mail.com", "player2"=>"", "player3"=>"", "player4"=>"", "player5"=>"", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"ddd", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (9.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('dddd', '', 'joe@mail.com', '', '', '', '', '', '', '', '', 'ddd', '', '', '', '', '', '2018-08-25 09:14:16', '2018-08-25 09:14:16')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (81.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 111ms (ActiveRecord: 92.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 05:14:16 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:29
+  Rendered league/list.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 328ms (Views: 295.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 05:15:40 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 405ms (Views: 319.9ms | ActiveRecord: 20.1ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 05:15:58 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YuW/YDBiHJMR4nkzPCmn94I1tWr4AMqvi7IX0ecDHZJDe6tvZQMYYkYRT5IMbOmO+3cA4TVTg1skpMiIb2vrCg==", "league"=>{"leaguename"=>"cac", "playerhost"=>"ccccccccc", "player1"=>"joe@mail.com", "player2"=>"joe@mail.com", "player3"=>"joe@mail.com", "player4"=>"joe@mail.com", "player5"=>"joe@mail.com", "player6"=>"joe@mail.com", "player7"=>"", "player8"=>"", "player9"=>"joe@mail.com", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (14.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('cac', 'ccccccccc', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', '', '', 'joe@mail.com', '', '', '', '', '', '', '2018-08-25 09:15:58', '2018-08-25 09:15:58')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (234.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 266ms (ActiveRecord: 249.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 05:15:59 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:29
+  Rendered league/list.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 348ms (Views: 315.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 05:16:11 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/list.html.erb:29
+  Rendered league/list.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 335ms (Views: 296.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:24:56 -0400
+  [1m[35m (0.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (13.0ms)
+  Rendered league/list.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 456ms (Views: 418.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 06:25:02 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 330ms (Views: 296.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 06:25:24 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xPQJ5N5PIRNx5Ct36+DrsZQXoHnY6fa41Tj8N2cInr3lah3riy4l4iYXHdbbpaXI7VUV8hW6v0x6LiNu72BoJQ==", "league"=>{"leaguename"=>"vzv", "playerhost"=>"mt", "player1"=>"joe@mail.com", "player2"=>"joe@mail.com", "player3"=>"joe@mail.com", "player4"=>"joe@mail.com", "player5"=>"joe@mail.com", "player6"=>"joe@mail.com", "player7"=>"vzdvz", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (46.3ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('vzv', 'mt', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'vzdvz', '', '', '', '', '', '', '', '', '2018-08-25 10:25:24', '2018-08-25 10:25:24')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (79.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 146ms (ActiveRecord: 127.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:25:25 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (10.0ms)
+  Rendered league/list.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 369ms (Views: 332.4ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/13" for 127.0.0.1 at 2018-08-25 06:25:40 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zteo6yooP1qOdNBEUubVJIQ3hhG7MZ6uyjhNp7648y2VvUOr6dL4uYOl8CTjQ9Ao5PXmCGVDYnlj5l94Aazgxw==", "id"=>"13"}
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 13 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[36mLeague Destroy (19.2ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 13[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (111.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:24
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 581ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:25:40 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (12.0ms)
+  Rendered league/list.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 374ms (Views: 340.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:27:15 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (11.0ms)
+  Rendered league/list.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 403ms (Views: 367.0ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/leagues/2" for 127.0.0.1 at 2018-08-25 06:27:24 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ggc2buLpxEo8PSiw32+eIBuIB+he4FeU7NdljNrUFrtBbd0uIRMDqTHsCNBuypsse0pn8YCSq0NFCXdTZcAFUQ==", "id"=>"2"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[36mLeague Destroy (24.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 2[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (146.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:24
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 191ms (ActiveRecord: 172.1ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:27:24 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (9.0ms)
+  Rendered league/list.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 383ms (Views: 348.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 06:27:35 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (15.0ms)
+  Rendered league/list.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 440ms (Views: 397.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 16:53:58 -0400
+Started GET "/" for 127.0.0.1 at 2018-08-25 16:53:59 -0400
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PageController#index as HTML
+Processing by LeagueController#list as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 3737ms (Views: 3413.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (2.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (97.0ms)
+  Rendered league/list.html.erb within layouts/application (208.1ms)
+Completed 200 OK in 5581ms (Views: 522.7ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-25 16:54:52 -0400
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by PageController#index as HTML
+  Rendering page/index.html.erb within layouts/application
+  Rendered page/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 326ms (Views: 293.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 16:56:40 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (12.0ms)
+  Rendered league/list.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 434ms (Views: 399.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newleague" for 127.0.0.1 at 2018-08-25 16:58:38 -0400
+Processing by LeagueController#new as HTML
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (665.1ms)
+Completed 200 OK in 1028ms (Views: 989.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 16:59:00 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0mT5oqFI9aCsa5zFSVSK9FfP23G/A8qO7nWE0jCHpkjz+u2t9CnxUfuYqmR5EcSNLo1u+nJQg3pBY1uLuO9Q0A==", "league"=>{"leaguename"=>"Ray Ugly Man", "playerhost"=>"efewrew", "player1"=>"joe@mail.com", "player2"=>"2222", "player3"=>"joe@mail.com", "player4"=>"", "player5"=>"cccc", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (1.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/league_controller.rb:14
+  Rendering league/new.html.erb within layouts/application
+  Rendered league/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1016ms (Views: 322.8ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/leagues" for 127.0.0.1 at 2018-08-25 16:59:19 -0400
+Processing by LeagueController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uY5y91cSHUuagpbvSakHsOauCzcmW8FaCDcq0aQXsSri5Jm3lOjaqJdTto/4DAK8hmxrLvgpPY2h6TgOGwOiwA==", "league"=>{"leaguename"=>"Ray Ugly Man", "playerhost"=>"efewrew", "player1"=>"joe@mail.com", "player2"=>"joe@mail.com", "player3"=>"joe@mail.com", "player4"=>"joe@mail.com", "player5"=>"joe@mail.com", "player6"=>"", "player7"=>"", "player8"=>"", "player9"=>"", "player10"=>"", "player11"=>"", "player12"=>"", "player13"=>"", "player14"=>"", "player15"=>""}, "commit"=>"Create League"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[36mLeague Create (49.0ms)[0m  [1m[32mINSERT INTO `leagues` (`leaguename`, `playerhost`, `player1`, `player2`, `player3`, `player4`, `player5`, `player6`, `player7`, `player8`, `player9`, `player10`, `player11`, `player12`, `player13`, `player14`, `player15`, `created_at`, `updated_at`) VALUES ('Ray Ugly Man', 'efewrew', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', 'joe@mail.com', '', '', '', '', '', '', '', '', '', '', '2018-08-25 20:59:19', '2018-08-25 20:59:19')[0m
+  ↳ app/controllers/league_controller.rb:14
+  [1m[35m (122.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:14
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 191ms (ActiveRecord: 172.9ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 16:59:20 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (9.1ms)
+  Rendered league/list.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 374ms (Views: 338.2ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/leagues/16" for 127.0.0.1 at 2018-08-25 16:59:37 -0400
+Processing by LeagueController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hM9xPuegFf6vz+sjAVCXdS+7N/7zTGXqYYSEB0d1ioPfpZp+JFrSHaIey0Ow9ZJ5T3lX5y0+mT3IWpbY+GGZaQ==", "id"=>"16"}
+  [1m[36mLeague Load (1.0ms)[0m  [1m[34mSELECT  `leagues`.* FROM `leagues` WHERE `leagues`.`id` = 16 LIMIT 1[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[36mLeague Destroy (11.0ms)[0m  [1m[31mDELETE FROM `leagues` WHERE `leagues`.`id` = 16[0m
+  ↳ app/controllers/league_controller.rb:24
+  [1m[35m (202.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/league_controller.rb:24
+Redirected to http://localhost:3000/listleagues
+Completed 302 Found in 630ms (ActiveRecord: 214.0ms)
+
+
+Started GET "/listleagues" for 127.0.0.1 at 2018-08-25 16:59:38 -0400
+Processing by LeagueController#list as HTML
+  Rendering league/list.html.erb within layouts/application
+  [1m[36mLeague Load (0.9ms)[0m  [1m[34mSELECT `leagues`.* FROM `leagues` ORDER BY `leagues`.`id` ASC[0m
+  ↳ app/views/league/_listpartial.html.erb:1
+  Rendered league/_listpartial.html.erb (10.0ms)
+  Rendered league/list.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 381ms (Views: 346.8ms | ActiveRecord: 0.9ms)
+
+

@@ -1,0 +1,34 @@
+<% if flash[:notice] %>
+  <div class="alert alert-primary" role="alert"><%= flash[:notice] %></div>
+<% end %>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Host</th>
+      <th scope="col">League Name</th>
+      <th scope="col">Friend 1</th>
+      <th scope="col">Friend 2</th>
+      <th scope="col">Friend 3</th>
+      <th scope="col">Friend 4</th>
+      <th scope="col">Friend 5</th>
+      <th scope="col">Friend 6</th>
+      <th scope="col">Friend 7</th>
+      <th scope="col">Friend 8</th>
+      <th scope="col">Friend 9</th>
+      <th scope="col">Friend 10</th>
+      <th scope="col">Friend 11</th>
+      <th scope="col">Friend 12</th>
+      <th scope="col">Friend 13</th>
+      <th scope="col">Friend 14</th>
+      <th scope="col">Friend 15</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <%= render partial: "listpartial" %>
+
+  </tbody>
+</table>
+
+<%= link_to "New League", newleague_path %>
